@@ -1,0 +1,13 @@
+prefix=C:/projects/mlproject/veny/Library
+exec_prefix=C:/projects/mlproject/veny/Library
+libdir=C:/projects/mlproject/veny/Library/lib
+sharedlibdir=C:/projects/mlproject/veny/Library/lib
+includedir=C:/projects/mlproject/veny/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
